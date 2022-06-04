@@ -7,27 +7,29 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.img-cont{
-    width: 70vw;
+.cont{
+    width: 95%;
     background-color: #252f3d;
     margin: auto;
-    padding: 30px ;
     margin-top: 10px;
     border-radius: 30px;
     direction: rtl;
+}
+.cont-items{
+    padding: 20px 50px;
 }
 .back-icon{
     align-items: center;
     display: flex;
     width: 75px;
     justify-content: space-between;
-    font-size: clamp(17px,2vw,22px);
-    padding: 4px 8px;
+    font-size: clamp(17px,2vw,30px);
+    padding: 3px 8px;
     border-radius: 5px;
     cursor: pointer;
 }
 .back-icon:hover{
-    border: 1px solid #d8dbdb;
+    border: 1px solid #ffffff;
 }
 .back{
     margin-bottom: 4px;
@@ -36,155 +38,64 @@ body {
     padding: 5px;
     display: block;
     width: 80%;
-    border-bottom:1px solid rgb(153, 153, 153);
-}
-/*  */
-.add-adver-img{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    column-gap: 30px;
-    row-gap: 15px;
-}
-.adver-img-1{
-    margin-top: 20px;
-    height:200px;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-}
-.adver-img-cont{
-    height: 100%;
-}
-.adver-img-cont img{
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-.adver-img-delet{
-    position: absolute;
-    top: 70%;
-}
-
-.btn-delet{
-    margin-top: 10px;
-    margin-right: 25px;
-    padding: 2px;
-    font-size: clamp(13px,2vw,20px);
-}
-.btn-chan{
-    margin-right: 10px;
-}
-.next-butn{
-    width: 50%;
-    margin: auto;
-}
-.add-picture{
-    margin: 5px;
-    width: 100px;
-    font-size: clamp(14px,2vw,20px);
-
-}
-.next-btn{
-    padding: 3px;
-    font-size: clamp(13px,2vw,20px);
-    margin-right: 200px;
-}
-.text{
-    position: absolute;
-    top: 48%;
-    right: 20%;
-    font-size: clamp(13px,2vw,18px);
-    color: blue;
-}
-/* select */
-.select-adver{
-    background-color: #ebebeb;
-    width: 50%;
-    border-radius: 5px;
-    font-size: 20px;
-    margin: 5px;
+    border-bottom:1px solid rgb(255, 255, 255);
 }
 .adver-title{
-    font-size: clamp(13px,2vw,23px);
-
+    font-size: clamp(13px,2vw,25px);
+}
+.select-adver{
+    margin: 5px 0;
+    width: 60%;
+    background-color: #252f3d;
+    color: #ffffff;
+    font-size: clamp(13px,2vw,25px);
+}
+.title-textarea{
+    width: 80%;
+}
+.inp-text{
+    background-color: #ffffff;
 }
 .title-con{
     width: 80%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-
-
-.title-textarea{
-    width: 65%;
+.adver-title1{
+    width: 60%;
 }
-.datales-textarea{
-    width: 70%;
-}
-.select-adver1{
-    width: 25%;
-}
-.curanty{
-    font-size: clamp(13px,2vw,16px);
-}
-.uploud{
-    display: block;
-    margin-top: 5px;
-    margin-right: 350px;
-    padding: 5px;
-}
-.tyips-adver{
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 2px;
-    color: #d8dbdb;
-    border: 1px solid #d8dbdb;
+.curanty,.tyips-adver{
+    font-size: clamp(13px,2vw,23px);
     background-color: #252f3d;
+    color: #ffffff;
 }
-/* تعديل */
-.modfile-img{
-    text-align: center;
-}
-.last{
-    margin: auto;
+.inp-text-num{
     width: 30%;
 }
-.adver-title1{
-    display: inline-block;
-    border-radius: 5px;
-    border: 1px solid #d8dbdb;
-    padding: 3px;
-    margin: 2px;
-    cursor: pointer;
+.inp-text-prise{
+    width: 30%;
 }
 @media  (max-width: 600px){
     .back-icon{
         width: 60px;
     }
-    .add-adver-img{
-        grid-template-columns: 1fr 1fr ;
-        column-gap: 10px;
-        row-gap: 10px;
+    .select-adver{
+        width: 90%;
     }
-    .adver-img-1{
-        height:100px;
+    .spand-line{
+        padding: 5px;
+        display: block;
+        width: 95%;
+        border-bottom:1px solid rgb(255, 255, 255);
     }
-    .add-picture{
-        width: 60px;
-        font-size: clamp(14px,2vw,20px);
-    
-    }
-    .text{
-        position: absolute;
-        top: 25%;
-        right: 20%;
-    }
-    .next-btn{
-        margin-right: 105px;
+    .title-textarea{
+        width: 100%;
     }
     .title-con{
-        width: 95%;
-    }    
+        width:100%;
+    }
+    .inp-text-num{
+        width: 90%;
+    }
 }
+
