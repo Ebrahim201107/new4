@@ -3,13 +3,13 @@
     margin: 0;
 }
 body {
-    background-color: #d8dbdb;
-    color: rgb(255, 255, 255);
+    background-color: #0143a7;
+    color: #313131;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.cont{
+.cont {
     width: 95%;
-    background-color: #252f3d;
+    background-color: #dfdfe0;
     margin: auto;
     margin-top: 10px;
     border-radius: 30px;
@@ -24,12 +24,12 @@ body {
     width: 75px;
     justify-content: space-between;
     font-size: clamp(17px,2vw,30px);
-    padding: 3px 8px;
+    padding: 1px 3px;
     border-radius: 5px;
     cursor: pointer;
 }
 .back-icon:hover{
-    border: 1px solid #ffffff;
+    border: 1px solid #313131;
 }
 .back{
     margin-bottom: 4px;
@@ -38,7 +38,7 @@ body {
     padding: 5px;
     display: block;
     width: 80%;
-    border-bottom:1px solid rgb(255, 255, 255);
+    border-bottom:1px solid #313131;
 }
 .adver-title{
     font-size: clamp(13px,2vw,25px);
@@ -46,14 +46,16 @@ body {
 .select-adver{
     margin: 5px 0;
     width: 60%;
-    background-color: #252f3d;
-    color: #ffffff;
+    background-color: white;
+    color: #313131;
     font-size: clamp(13px,2vw,25px);
 }
 .title-textarea{
     width: 80%;
+    font-size: clamp(13px,2vw,25px);
 }
 .inp-text{
+    border: 1px solid #313131;
     background-color: #ffffff;
 }
 .title-con{
@@ -66,8 +68,12 @@ body {
 }
 .curanty,.tyips-adver{
     font-size: clamp(13px,2vw,23px);
-    background-color: #252f3d;
-    color: #ffffff;
+    background-color:  #dfdfe0;
+    color: #252f3d;
+    padding: 2px;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    margin: 5px;
 }
 .inp-text-num{
     width: 30%;
@@ -75,9 +81,19 @@ body {
 .inp-text-prise{
     width: 30%;
 }
+.last{
+    padding-top: 10px;
+    text-align: center;
+}
+.last1{
+    padding: 2px;
+    border-radius: 5px;
+    display: inline;
+    border: 1px solid #313131;
+}
 @media  (max-width: 600px){
     .back-icon{
-        width: 60px;
+        width: 50px;
     }
     .select-adver{
         width: 90%;
@@ -86,7 +102,7 @@ body {
         padding: 5px;
         display: block;
         width: 95%;
-        border-bottom:1px solid rgb(255, 255, 255);
+        border-bottom:1px solid #313131;
     }
     .title-textarea{
         width: 100%;
